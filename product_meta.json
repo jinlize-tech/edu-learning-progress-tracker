@@ -1,0 +1,24 @@
+{
+  "number": 53,
+  "product_id": "JLZ-EDU-SK-043",
+  "chinese_name": "学习进度跟踪",
+  "english_name": "Learning Progress Tracker",
+  "repository_name": "edu-learning-progress-tracker",
+  "product_type": "Skill",
+  "category": "04 教务运营中心",
+  "version": "1.0.0",
+  "status": "PACKAGE_READY",
+  "workbuddy_validation": "NOT_VERIFIED",
+  "license": "Apache-2.0",
+  "baseline_tag": "education-product-baseline-v1.0.0",
+  "package_path": "dist/edu-learning-progress-tracker-v1.0.0.zip",
+  "calculator": false,
+  "core_input": "课程计划、课时记录、作业/测评结果、出勤和学习目标",
+  "main_output": "学习进度表、偏差说明、里程碑、跟进建议和待确认项",
+  "package_entries": [
+    "edu-learning-progress-tracker/SKILL.md",
+    "edu-learning-progress-tracker/references/DOMAIN_GUIDE.md",
+    "edu-learning-progress-tracker/references/EXAMPLES.md",
+    "edu-learning-progress-tracker/templates/OUTPUT_TEMPLATE.md"
+  ]
+}
