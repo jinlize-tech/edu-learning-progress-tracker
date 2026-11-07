@@ -6,19 +6,37 @@
   "repository_name": "edu-learning-progress-tracker",
   "product_type": "Skill",
   "category": "04 教务运营中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-learning-progress-tracker-v1.0.0.zip",
+  "baseline_commit": "946059458130675f3954046a97aaeb6c6421e9ad",
+  "package_path": "dist/edu-learning-progress-tracker-v1.0.1.zip",
+  "previous_package_path": "dist/edu-learning-progress-tracker-v1.0.0.zip",
+  "previous_package_sha256": "F07F8EB38CCF481D21A0D32E1E4277E6335711CDC2F5DC294556CBBB7F32A496",
   "calculator": false,
   "core_input": "课程计划、课时记录、作业/测评结果、出勤和学习目标",
   "main_output": "学习进度表、偏差说明、里程碑、跟进建议和待确认项",
+  "main_output_fields": [
+    "学习进度表",
+    "偏差说明",
+    "里程碑",
+    "跟进建议和待确认项"
+  ],
   "package_entries": [
     "edu-learning-progress-tracker/SKILL.md",
     "edu-learning-progress-tracker/references/DOMAIN_GUIDE.md",
     "edu-learning-progress-tracker/references/EXAMPLES.md",
-    "edu-learning-progress-tracker/templates/OUTPUT_TEMPLATE.md"
+    "edu-learning-progress-tracker/templates/OUTPUT_TEMPLATE.md",
+    "edu-learning-progress-tracker/README.md",
+    "edu-learning-progress-tracker/USAGE.md",
+    "edu-learning-progress-tracker/LICENSE",
+    "edu-learning-progress-tracker/THIRD_PARTY_NOTICES.md",
+    "edu-learning-progress-tracker/scripts/validate_input.js"
   ]
 }
